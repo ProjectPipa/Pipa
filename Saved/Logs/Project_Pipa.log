@@ -1,4 +1,4 @@
-﻿Log file open, 05/15/18 17:45:11
+﻿Log file open, 05/16/18 01:56:06
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Project_Pipa
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-1784113023) SRandInit(-1784113023).
+LogInit: Display: RandInit(1475744309) SRandInit(1475744309).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.163643
+LogStats: Stats thread started at 0.163623
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,505 +196,340 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.05.16-00.45.13:224][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.16-00.45.13:224][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.05.16-00.45.13:235][  0]LogInit: Computer: JARVIS-XRO
-[2018.05.16-00.45.13:235][  0]LogInit: User: julia
-[2018.05.16-00.45.13:235][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.05.16-00.45.13:235][  0]LogInit: High frequency timer resolution =3.515629 MHz
-[2018.05.16-00.45.13:235][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2018.05.16-00.45.13:235][  0]LogMemory: Platform Memory Stats for Windows
-[2018.05.16-00.45.13:235][  0]LogMemory: Process Physical Memory: 272.01 MB used, 272.01 MB peak
-[2018.05.16-00.45.13:235][  0]LogMemory: Process Virtual Memory: 269.80 MB used, 269.80 MB peak
-[2018.05.16-00.45.13:235][  0]LogMemory: Physical Memory: 5375.88 MB used,  2719.63 MB free, 8095.50 MB total
-[2018.05.16-00.45.13:235][  0]LogMemory: Virtual Memory: 682.24 MB used,  2719.63 MB free, 134217728.00 MB total
-[2018.05.16-00.45.13:436][  0]LogInit: Using OS detected language (en-US).
-[2018.05.16-00.45.13:436][  0]LogInit: Using OS detected locale (en-US).
-[2018.05.16-00.45.13:443][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.05.16-00.45.13:797][  0]LogInit: Setting process to per monitor DPI aware
-[2018.05.16-00.45.14:081][  0]LogD3D11RHI: D3D11 adapters:
-[2018.05.16-00.45.14:088][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2018.05.16-00.45.14:088][  0]LogD3D11RHI:       128/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2018.05.16-00.45.14:151][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
-[2018.05.16-00.45.14:151][  0]LogD3D11RHI:       6061/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
-[2018.05.16-00.45.14:153][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2018.05.16-00.45.14:153][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2018.05.16-00.45.14:153][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
-[2018.05.16-00.45.14:160][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.05.16-00.45.14:160][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
-[2018.05.16-00.45.14:160][  0]LogWindows: EnumDisplayDevices:
-[2018.05.16-00.45.14:160][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.16-00.45.14:160][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.16-00.45.14:160][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.16-00.45.14:160][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
-[2018.05.16-00.45.14:161][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:1 D:1)
-[2018.05.16-00.45.14:161][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.16-00.45.14:161][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2018.05.16-00.45.14:161][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
-[2018.05.16-00.45.14:161][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
-[2018.05.16-00.45.14:161][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
-[2018.05.16-00.45.14:161][  0]LogD3D11RHI:      Driver Date: Unknown
-[2018.05.16-00.45.14:161][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
-[2018.05.16-00.45.14:187][  0]LogD3D11RHI: Async texture creation enabled
-[2018.05.16-00.45.14:210][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2018.05.16-00.45.14:210][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Users/julia/Desktop/Project_Pipa/Intermediate/Shaders/WorkingDirectory/17424/).
-[2018.05.16-00.45.14:210][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/julia/AppData/Local/Temp/UnrealShaderWorkingDir/CB2C2A794323449E54600BB365C0D0FC/'.
-[2018.05.16-00.45.14:210][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.05.16-00.45.15:029][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.05.16-00.45.15:084][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.05.16-00.45.15:140][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.05.16-00.45.15:198][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.05.16-00.45.15:258][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.05.16-00.45.15:324][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.05.16-00.45.15:389][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.05.16-00.45.15:450][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.05.16-00.45.15:500][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.05.16-00.45.15:563][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.05.16-00.45.15:619][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.05.16-00.45.15:674][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.05.16-00.45.15:729][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.05.16-00.45.15:791][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.05.16-00.45.15:916][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.05.16-00.45.15:916][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.05.16-00.45.15:978][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.05.16-00.45.16:023][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.05.16-00.45.16:136][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.05.16-00.45.16:165][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.05.16-00.45.16:234][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.05.16-00.45.16:296][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.05.16-00.45.16:356][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.05.16-00.45.16:411][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.05.16-00.45.16:411][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.05.16-00.45.16:961][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.05.16-00.45.17:025][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/julia/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.16-00.45.17:025][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/julia/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.05.16-00.45.17:025][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/julia/Desktop/Project_Pipa/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.05.16-00.45.17:025][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.05.16-00.45.17:025][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/julia/Desktop/Project_Pipa/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.05.16-00.45.17:025][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.05.16-00.45.17:039][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.05.16-00.45.17:053][  0]LogDerivedDataCache: Using Local data cache path C:/Users/julia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.05.16-00.45.17:061][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.05.16-00.45.17:061][  0]LogSlate: Using Freetype 2.6.0
-[2018.05.16-00.45.17:062][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.16-00.45.17:062][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.05.16-00.45.17:398][  0]LogInit: Selected Device Profile: [Windows]
-[2018.05.16-00.45.17:762][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.05.16-00.45.17:816][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.05.16-00.45.17:817][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.05.16-00.45.17:817][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.05.16-00.45.17:817][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.05.16-00.45.17:817][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.05.16-00.45.17:849][  0]LogNetVersion: Project_Pipa , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 535431600)
-[2018.05.16-00.45.18:032][  0]LogAssetRegistry: FAssetRegistry took 0.0256 seconds to start up
-[2018.05.16-00.45.18:581][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.082239 seconds
-[2018.05.16-00.45.18:586][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.05.16-00.45.18:586][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.05.16-00.45.18:586][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.05.16-00.45.18:652][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.05.16-00.45.22:121][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.05.16-00.45.22:166][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.05.16-00.45.22:957][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.05.16-00.45.23:431][  0]SourceControl: Source control is disabled
-[2018.05.16-00.45.23:431][  0]SourceControl: Source control is disabled
-[2018.05.16-00.45.23:500][  0]SourceControl: Source control is disabled
-[2018.05.16-00.45.23:563][  0]SourceControl: Source control is disabled
-[2018.05.16-00.45.24:550][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.05.16-00.45.24:861][  0]LogOcInput: OculusInput pre-init called
-[2018.05.16-00.45.25:213][  0]LogEngine: Initializing Engine...
-[2018.05.16-00.45.25:215][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.05.16-00.45.25:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.05.16-00.45.25:395][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.05.16-00.45.25:576][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.05.16-00.45.25:586][  0]LogInit: XAudio2 using 'SAMSUNG (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.16-00.45.25:597][  0]LogInit: FAudioDevice initialized.
-[2018.05.16-00.45.25:767][  0]LogDerivedDataCache: Saved boot cache 0.17s 78MB C:/Users/julia/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.05.16-00.45.25:780][  0]LogInit: Texture streaming: Enabled
-[2018.05.16-00.45.25:902][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.05.16-00.45.26:054][  0]LogInit: Transaction tracking system initialized
-[2018.05.16-00.45.26:423][  0]BlueprintLog: New page: Editor Load
-[2018.05.16-00.45.27:520][  0]LocalizationService: Localization service is disabled
-[2018.05.16-00.45.28:873][  0]LogConsoleResponse: Display: 
-[2018.05.16-00.45.29:061][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.05.16-00.45.29:061][  0]LogCook: Display: Mobile HDR setting 1
-[2018.05.16-00.45.29:061][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.05.16-00.45.29:952][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Desktop/Project_Pipa/Content/' took 0.02s
-[2018.05.16-00.45.30:560][  0]SourceControl: Source control is disabled
-[2018.05.16-00.45.30:560][  0]Cmd: MAP LOAD FILE="../../../../../../Users/julia/Desktop/Project_Pipa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.05.16-00.45.30:560][  0]LightingResults: New page: Lighting Build
-[2018.05.16-00.45.30:612][  0]MapCheck: New page: Map Check
-[2018.05.16-00.45.30:612][  0]LightingResults: New page: Lighting Build
-[2018.05.16-00.45.32:443][  0]LogBlueprint: Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Get : 'CameraBoom' variable not found. Base class was probably changed. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap
-[2018.05.16-00.45.32:445][  0]LogBlueprint: Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] [0021.67] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 1 Warning(s) [in 1 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
-[2018.05.16-00.45.33:686][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.16-00.45.33:710][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.05.16-00.45.33:728][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.05.16-00.45.33:788][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 60.492ms to complete.
-[2018.05.16-00.45.33:788][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 3.229
-[2018.05.16-00.45.33:931][  0]LogCollectionManager: Loaded 0 collections in 0.001785 seconds
-[2018.05.16-00.45.34:021][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Desktop/Project_Pipa/Saved/Collections/' took 0.01s
-[2018.05.16-00.45.34:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Desktop/Project_Pipa/Content/Developers/julia/Collections/' took 0.01s
-[2018.05.16-00.45.34:022][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Desktop/Project_Pipa/Content/Collections/' took 0.01s
-[2018.05.16-00.45.34:022][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2018.05.16-00.45.34:029][  0]LogContentBrowser: Native class hierarchy populated in 0.0070 seconds. Added 2363 classes and 519 folders.
-[2018.05.16-00.45.34:114][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.05.16-00.45.34:184][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.05.16-00.45.34:238][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
-[2018.05.16-00.45.34:251][  0]LogSlate: Took 0.000165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.05.16-00.45.34:252][  0]LogSlate: Took 0.000134 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.05.16-00.45.34:257][  0]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.05.16-00.45.34:349][  0]LogRenderer: Reallocating scene render targets to support 804x280 Format 10 NumSamples 1 (Frame:1).
-[2018.05.16-00.45.34:578][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.05.16-00.45.34:578][  0]LogLoad: (Engine Initialization) Total time: 23.81 seconds
-[2018.05.16-00.45.34:578][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.05.16-00.45.34:578][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.05.16-00.45.34:588][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.16-00.45.34:609][  0]LogAssetRegistry: Asset discovery search completed in 16.5981 seconds
-[2018.05.16-00.45.34:610][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.05.16-00.45.34:610][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000041 seconds (updated 0 objects)
-[2018.05.16-00.45.34:612][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.05.16-00.45.34:663][  0]LogSlate: Took 0.000227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.16-00.45.35:654][ 72]LogSlate: Took 0.000216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.16-00.45.40:415][620]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.05.16-00.45.40:704][620]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
-[2018.05.16-00.45.41:333][620]LogSlate: Took 0.000201 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2018.05.16-00.45.41:646][621]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2018.05.16-00.45.50:302][ 49]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.16-00.45.50:358][ 49]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.45.50:384][ 49]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.16-00.45.50:384][ 49]PIE: New page: PIE session: ThirdPersonExampleMap (May 15, 2018, 10:45:50 AM)
-[2018.05.16-00.45.50:385][ 49]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.05.16-00.45.50:596][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.211866s)
-[2018.05.16-00.45.50:597][ 49]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.16-00.45.50:597][ 49]LogPlayLevel: PIE: World Init took: (0.000674s)
-[2018.05.16-00.45.50:597][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.212877s)
-[2018.05.16-00.45.50:615][ 49]LogInit: XAudio2 using 'SAMSUNG (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.16-00.45.50:619][ 49]LogInit: FAudioDevice initialized.
-[2018.05.16-00.45.50:663][ 49]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.05.16-00.45.50:675][ 49]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.15-17.45.50
-[2018.05.16-00.45.50:676][ 49]LogWorld: Bringing up level for play took: 0.011858
-[2018.05.16-00.45.50:726][ 49]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
-[2018.05.16-00.45.50:727][ 49]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.559
-[2018.05.16-00.45.50:727][ 49]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.45.50:826][ 50]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.082524 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
-[2018.05.16-00.46.18:465][471]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.46.18:525][471]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.47.57:147][485]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.05.16-00.48.15:181][666]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.05.16-00.48.20:581][190]LogTemp: Repeating last play command: Selected Viewport
-[2018.05.16-00.48.20:620][190]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.48.20:620][190]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.05.16-00.48.20:620][190]PIE: New page: PIE session: ThirdPersonExampleMap (May 15, 2018, 10:48:20 AM)
-[2018.05.16-00.48.20:620][190]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
-[2018.05.16-00.48.22:819][190]LogPlayLevel: PIE: StaticDuplicateObject took: (2.199016s)
-[2018.05.16-00.48.22:819][190]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
-[2018.05.16-00.48.22:819][190]LogPlayLevel: PIE: World Init took: (0.000676s)
-[2018.05.16-00.48.22:820][190]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (2.199960s)
-[2018.05.16-00.48.22:839][190]LogInit: XAudio2 using 'SAMSUNG (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2018.05.16-00.48.22:843][190]LogInit: FAudioDevice initialized.
-[2018.05.16-00.48.22:874][190]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.05.16-00.48.22:885][190]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.15-17.48.22
-[2018.05.16-00.48.22:886][190]LogWorld: Bringing up level for play took: 0.011509
-[2018.05.16-00.48.22:887][190]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 2.719
-[2018.05.16-00.48.22:888][190]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.48.22:902][191]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073929 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
-[2018.05.16-00.48.34:960][593]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.48.35:001][593]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
-[2018.05.16-00.51.11:903][867]BlueprintLog: New page: Compile ThirdPersonCharacter
-[2018.05.16-00.51.18:656][ 84]Cmd: QUIT_EDITOR
-[2018.05.16-00.51.18:789][ 84]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
-[2018.05.16-00.51.18:799][ 84]LogExit: Preparing to exit.
-[2018.05.16-00.51.19:320][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/julia/Desktop/Project_Pipa/Content/' was aborted.
-[2018.05.16-00.51.19:351][ 84]LogExit: Editor shut down
-[2018.05.16-00.51.19:354][ 84]LogExit: Transaction tracking system shut down
-[2018.05.16-00.51.19:433][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.05.16-00.51.19:433][ 84]LogDirectoryWatcher: A directory notification for '../../../../../../Users/julia/Desktop/Project_Pipa/Content/' was aborted.
-[2018.05.16-00.51.19:433][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.05.16-00.51.19:433][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.05.16-00.51.19:433][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.05.16-00.51.19:433][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.05.16-00.51.19:433][ 84]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.05.16-00.51.19:503][ 84]LogExit: Object subsystem successfully closed.
-[2018.05.16-00.51.19:527][ 84]LogD3D11RHI: Shutdown
-[2018.05.16-00.51.19:528][ 84]LogD3D11RHI: CleanupD3DDevice
-[2018.05.16-00.51.19:530][ 84]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.05.16-00.51.19:547][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (552)
-[2018.05.16-00.51.19:547][ 84]LogModuleManager: Shutting down and abandoning module BlueprintGraph (550)
-[2018.05.16-00.51.19:547][ 84]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.05.16-00.51.19:547][ 84]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.05.16-00.51.19:547][ 84]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.05.16-00.51.19:547][ 84]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.05.16-00.51.19:548][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/julia/Desktop/Project_Pipa/Content/Collections/' was aborted.
-[2018.05.16-00.51.19:548][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/julia/Desktop/Project_Pipa/Content/Developers/julia/Collections/' was aborted.
-[2018.05.16-00.51.19:548][ 84]LogDirectoryWatcher: A directory notification for 'C:/Users/julia/Desktop/Project_Pipa/Saved/Collections/' was aborted.
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.05.16-00.51.19:548][ 84]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.05.16-00.51.19:549][ 84]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.05.16-00.51.20:099][ 84]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.05.16-00.51.20:100][ 84]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.05.16-00.51.20:100][ 84]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.05.16-00.51.20:100][ 84]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.05.16-00.51.20:100][ 84]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.05.16-00.51.20:100][ 84]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.05.16-00.51.20:100][ 84]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.05.16-00.51.20:100][ 84]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.05.16-00.51.20:153][ 84]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.05.16-00.51.20:159][ 84]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.05.16-00.51.20:160][ 84]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.05.16-00.51.20:160][ 84]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.05.16-00.51.20:160][ 84]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.05.16-00.51.20:275][ 84]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.05.16-00.51.20:276][ 84]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.05.16-00.51.20:277][ 84]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.05.16-00.51.20:378][ 84]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.05.16-00.51.20:478][ 84]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.05.16-00.51.20:480][ 84]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.05.16-00.51.20:480][ 84]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.05.16-00.51.20:480][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.05.16-00.51.20:480][ 84]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.05.16-00.51.20:480][ 84]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.05.16-00.51.20:480][ 84]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.05.16-00.51.20:486][ 84]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.05.16-00.51.20:487][ 84]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.05.16-00.51.20:489][ 84]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.05.16-00.51.20:490][ 84]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.05.16-00.51.20:490][ 84]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.05.16-00.51.20:492][ 84]LogDerivedDataCache: Shutdown
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.05.16-00.51.20:492][ 84]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.05.16-00.51.20:493][ 84]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.05.16-00.51.20:493][ 84]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.05.16-00.51.20:493][ 84]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6D008114-46F4-947B-9F61-E4AE0148359C%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=1c6feb7841b5ca4c6a7001bfbe27a638%7C602093ef08c346a5a97325d42a1cfb3b%7C1da42547-2838-4d21-918a-9c21b2c9239e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.05.16-00.51.20:497][ 84]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.05.16-00.51.20:498][ 84]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.05.16-00.51.20:498][ 84]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.05.16-00.51.20:498][ 84]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.05.16-00.51.20:498][ 84]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.05.16-00.51.20:498][ 84]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.05.16-00.51.20:498][ 84]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.05.16-00.51.20:498][ 84]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.05.16-00.51.20:499][ 84]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.05.16-00.51.20:499][ 84]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.05.16-00.51.20:499][ 84]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.05.16-00.51.20:499][ 84]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.05.16-00.51.20:500][ 84]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.05.16-00.51.20:500][ 84]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.05.16-00.51.20:500][ 84]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.05.16-00.51.20:500][ 84]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.05.16-00.51.20:500][ 84]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.05.16-00.51.20:500][ 84]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.05.16-00.51.20:500][ 84]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.05.16-00.51.20:502][ 84]LogExit: Exiting.
-[2018.05.16-00.51.20:513][ 84]Log file closed, 05/15/18 17:51:20
+[2018.05.16-08.56.07:540][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.16-08.56.07:540][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.05.16-08.56.07:555][  0]LogInit: Computer: JARVIS-XRO
+[2018.05.16-08.56.07:555][  0]LogInit: User: julia
+[2018.05.16-08.56.07:555][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.05.16-08.56.07:555][  0]LogInit: High frequency timer resolution =3.515628 MHz
+[2018.05.16-08.56.07:555][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2018.05.16-08.56.07:555][  0]LogMemory: Platform Memory Stats for Windows
+[2018.05.16-08.56.07:555][  0]LogMemory: Process Physical Memory: 273.53 MB used, 273.53 MB peak
+[2018.05.16-08.56.07:555][  0]LogMemory: Process Virtual Memory: 269.80 MB used, 269.80 MB peak
+[2018.05.16-08.56.07:555][  0]LogMemory: Physical Memory: 4540.50 MB used,  3555.00 MB free, 8095.50 MB total
+[2018.05.16-08.56.07:555][  0]LogMemory: Virtual Memory: 682.24 MB used,  3555.00 MB free, 134217728.00 MB total
+[2018.05.16-08.56.07:703][  0]LogInit: Using OS detected language (en-US).
+[2018.05.16-08.56.07:703][  0]LogInit: Using OS detected locale (en-US).
+[2018.05.16-08.56.07:705][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.05.16-08.56.08:012][  0]LogInit: Setting process to per monitor DPI aware
+[2018.05.16-08.56.08:219][  0]LogD3D11RHI: D3D11 adapters:
+[2018.05.16-08.56.08:226][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2018.05.16-08.56.08:226][  0]LogD3D11RHI:       128/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2018.05.16-08.56.08:273][  0]LogD3D11RHI:    1. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2018.05.16-08.56.08:273][  0]LogD3D11RHI:       6061/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x10de
+[2018.05.16-08.56.08:275][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2018.05.16-08.56.08:275][  0]LogD3D11RHI:       0/0/4047 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2018.05.16-08.56.08:275][  0]LogD3D11RHI: Chosen D3D11 Adapter: 1
+[2018.05.16-08.56.08:280][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.05.16-08.56.08:280][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2018.05.16-08.56.08:280][  0]LogWindows: EnumDisplayDevices:
+[2018.05.16-08.56.08:281][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.16-08.56.08:281][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.16-08.56.08:281][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.16-08.56.08:281][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2018.05.16-08.56.08:281][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2018.05.16-08.56.08:281][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.16-08.56.08:281][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2018.05.16-08.56.08:281][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:0 
+[2018.05.16-08.56.08:281][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2018.05.16-08.56.08:281][  0]LogD3D11RHI:   Driver Version: Unknown (internal:Unknown, unified:Unknown)
+[2018.05.16-08.56.08:281][  0]LogD3D11RHI:      Driver Date: Unknown
+[2018.05.16-08.56.08:281][  0]LogRHI: Texture pool is 4242 MB (70% of 6061 MB)
+[2018.05.16-08.56.08:304][  0]LogD3D11RHI: Async texture creation enabled
+[2018.05.16-08.56.08:318][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2018.05.16-08.56.08:319][  0]LogShaderCompilers: Guid format shader working directory is -5 characters bigger than the processId version (../../../../../../Users/julia/Documents/GitHub/Pipa/Intermediate/Shaders/WorkingDirectory/4536/).
+[2018.05.16-08.56.08:319][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/julia/AppData/Local/Temp/UnrealShaderWorkingDir/795A6D05471BDABF08960E8AD4422801/'.
+[2018.05.16-08.56.08:319][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.05.16-08.56.09:084][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.05.16-08.56.09:134][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.05.16-08.56.09:185][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.05.16-08.56.09:236][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.05.16-08.56.09:287][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.05.16-08.56.09:339][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.05.16-08.56.09:393][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.05.16-08.56.09:446][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.05.16-08.56.09:492][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.05.16-08.56.09:541][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.05.16-08.56.09:590][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.05.16-08.56.09:639][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.05.16-08.56.09:689][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.05.16-08.56.09:738][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.05.16-08.56.09:835][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.05.16-08.56.09:835][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.05.16-08.56.09:884][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.05.16-08.56.09:925][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.05.16-08.56.10:017][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.05.16-08.56.10:042][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.05.16-08.56.10:091][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.05.16-08.56.10:140][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.05.16-08.56.10:189][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.05.16-08.56.10:238][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.05.16-08.56.10:238][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.05.16-08.56.10:705][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.05.16-08.56.10:760][  0]LogDerivedDataCache: Loaded boot cache 0.06s 78MB C:/Users/julia/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.16-08.56.10:760][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/julia/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.05.16-08.56.10:761][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/julia/Documents/GitHub/Pipa/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.05.16-08.56.10:761][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.05.16-08.56.10:761][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/julia/Documents/GitHub/Pipa/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.05.16-08.56.10:761][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.05.16-08.56.10:774][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.05.16-08.56.10:786][  0]LogDerivedDataCache: Using Local data cache path C:/Users/julia/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.05.16-08.56.10:794][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.05.16-08.56.10:795][  0]LogSlate: Using Freetype 2.6.0
+[2018.05.16-08.56.10:795][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.16-08.56.10:795][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.05.16-08.56.11:079][  0]LogInit: Selected Device Profile: [Windows]
+[2018.05.16-08.56.11:394][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.05.16-08.56.11:437][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.05.16-08.56.11:437][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.05.16-08.56.11:437][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.05.16-08.56.11:437][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.05.16-08.56.11:437][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.05.16-08.56.11:462][  0]LogNetVersion: Project_Pipa , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 535431600)
+[2018.05.16-08.56.11:622][  0]LogAssetRegistry: FAssetRegistry took 0.0257 seconds to start up
+[2018.05.16-08.56.12:110][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.052131 seconds
+[2018.05.16-08.56.12:114][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.05.16-08.56.12:114][  0]LogUObjectAllocator: 7363696 out of 0 bytes used by permanent object pool.
+[2018.05.16-08.56.12:114][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.05.16-08.56.12:168][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.05.16-08.56.14:762][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.05.16-08.56.14:803][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.05.16-08.56.15:479][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.05.16-08.56.15:897][  0]SourceControl: Source control is disabled
+[2018.05.16-08.56.15:897][  0]SourceControl: Source control is disabled
+[2018.05.16-08.56.15:951][  0]SourceControl: Source control is disabled
+[2018.05.16-08.56.16:004][  0]SourceControl: Source control is disabled
+[2018.05.16-08.56.16:820][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.05.16-08.56.17:089][  0]LogOcInput: OculusInput pre-init called
+[2018.05.16-08.56.17:380][  0]LogEngine: Initializing Engine...
+[2018.05.16-08.56.17:382][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.05.16-08.56.17:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.05.16-08.56.17:554][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.05.16-08.56.17:689][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.05.16-08.56.17:699][  0]LogInit: XAudio2 using 'TCL (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.16-08.56.17:719][  0]LogInit: FAudioDevice initialized.
+[2018.05.16-08.56.17:873][  0]LogDerivedDataCache: Saved boot cache 0.15s 78MB C:/Users/julia/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.05.16-08.56.17:883][  0]LogInit: Texture streaming: Enabled
+[2018.05.16-08.56.17:984][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.05.16-08.56.18:119][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2018.05.16-08.56.18:496][  0]LogInit: Transaction tracking system initialized
+[2018.05.16-08.56.18:847][  0]BlueprintLog: New page: Editor Load
+[2018.05.16-08.56.19:959][  0]LocalizationService: Localization service is disabled
+[2018.05.16-08.56.20:796][  0]LogConsoleResponse: Display: 
+[2018.05.16-08.56.20:968][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.05.16-08.56.20:968][  0]LogCook: Display: Mobile HDR setting 1
+[2018.05.16-08.56.20:969][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.05.16-08.56.20:998][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/GitHub/Pipa/Content/' took 0.02s
+[2018.05.16-08.56.22:204][  0]SourceControl: Source control is disabled
+[2018.05.16-08.56.22:204][  0]Cmd: MAP LOAD FILE="../../../../../../Users/julia/Documents/GitHub/Pipa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.05.16-08.56.22:204][  0]LightingResults: New page: Lighting Build
+[2018.05.16-08.56.22:252][  0]MapCheck: New page: Map Check
+[2018.05.16-08.56.22:253][  0]LightingResults: New page: Lighting Build
+[2018.05.16-08.56.22:736][  0]LogBlueprint: Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] Get : 'CameraBoom' variable not found. Base class was probably changed. /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap
+[2018.05.16-08.56.22:737][  0]LogBlueprint: Warning: [Compiler PersistentLevel.ThirdPersonExampleMap] [0017.32] Compile of PersistentLevel.ThirdPersonExampleMap successful, but with 1 Warning(s) [in 1 ms] (/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap)
+[2018.05.16-08.56.23:235][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.16-08.56.23:260][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.05.16-08.56.23:278][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.05.16-08.56.23:333][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.33ms to complete.
+[2018.05.16-08.56.23:333][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 1.129
+[2018.05.16-08.56.23:468][  0]LogCollectionManager: Loaded 0 collections in 0.001536 seconds
+[2018.05.16-08.56.23:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/GitHub/Pipa/Saved/Collections/' took 0.01s
+[2018.05.16-08.56.23:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/GitHub/Pipa/Content/Developers/julia/Collections/' took 0.01s
+[2018.05.16-08.56.23:551][  0]LogFileCache: Scanning file cache for directory 'C:/Users/julia/Documents/GitHub/Pipa/Content/Collections/' took 0.01s
+[2018.05.16-08.56.23:551][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2018.05.16-08.56.23:558][  0]LogContentBrowser: Native class hierarchy populated in 0.0067 seconds. Added 2363 classes and 519 folders.
+[2018.05.16-08.56.23:627][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.16-08.56.23:666][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.05.16-08.56.23:716][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.05.16-08.56.23:729][  0]LogSlate: Took 0.000177 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.05.16-08.56.23:731][  0]LogSlate: Took 0.000139 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.05.16-08.56.23:737][  0]LogSlate: Took 0.000188 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.05.16-08.56.23:820][  0]LogRenderer: Reallocating scene render targets to support 804x280 Format 10 NumSamples 1 (Frame:1).
+[2018.05.16-08.56.24:025][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 1 classes and 2 folders.
+[2018.05.16-08.56.24:025][  0]LogLoad: (Engine Initialization) Total time: 18.61 seconds
+[2018.05.16-08.56.24:025][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.05.16-08.56.24:025][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.05.16-08.56.24:056][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.05.16-08.56.24:102][  0]LogSlate: Took 0.000143 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.16-08.56.24:133][  1]LogAssetRegistry: Asset discovery search completed in 12.5332 seconds
+[2018.05.16-08.56.24:135][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2018.05.16-08.56.24:135][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000040 seconds (updated 0 objects)
+[2018.05.16-08.56.40:401][657]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.ProjectPipa
+[2018.05.16-08.56.40:401][657]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.16-08.56.40:401][657]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.18
+[2018.05.16-08.56.40:401][657]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.18\Engine\Binaries\DotNET\IOS
+[2018.05.16-08.56.40:401][657]LogTemp: BranchPath = JARVIS-XRO/C/Program Files/Epic Games/UE_4.18/Engine/Binaries --- GameBranchPath = JARVIS-XRO/C/Program Files/Epic Games/UE_4.18/Engine/Binaries
+[2018.05.16-08.56.40:401][657]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\julia\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2018.05.16-08.56.40:401][657]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2018.05.16-08.56.50:654][801]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.16-08.56.58:170][653]LogSlate: Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2018.05.16-08.56.58:361][653]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator0' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.05.16-08.56.58:361][653]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator1' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.05.16-08.56.58:361][653]LogEnum: Warning: Enum name collision: 'ERotationMode::ERotationMode_MAX' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.05.16-08.56.58:361][653]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator0' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.05.16-08.56.58:361][653]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator1' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.05.16-08.56.58:409][653]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0004 seconds. Added 116 classes and 0 folders.
+[2018.05.16-08.56.58:944][653]LogSlate: Took 0.000796 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.05.16-08.56.59:225][654]LogSlate: Took 0.000272 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.05.16-08.57.07:291][128]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PipaAnimations/Backfist_Anim_Mani.Backfist_Anim_Mani
+[2018.05.16-08.57.07:291][128]LogAnimationCompression: Recompressing (AnimSequence /Game/PipaAnimations/Backfist_Anim_Mani.Backfist_Anim_Mani) using current/default (AnimCompress_BitwiseCompressOnly_23) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.16-08.57.12:512][500]LogAnimationCompression: Building Anim DDC data for AnimSequence /Game/PipaAnimations/High_Kick_Anim_Mani.High_Kick_Anim_Mani
+[2018.05.16-08.57.12:512][500]LogAnimationCompression: Recompressing (AnimSequence /Game/PipaAnimations/High_Kick_Anim_Mani.High_Kick_Anim_Mani) using current/default (AnimCompress_BitwiseCompressOnly_46) bFirstRecompressUsingCurrentOrDefault(1) bTryAlternateCompressor(0) IsCompressedDataValid(0)
+[2018.05.16-08.57.13:852][595]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.05.16-08.57.16:990][740]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.16-08.57.17:079][740]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-08.57.17:079][740]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.16-08.57.17:079][740]PIE: New page: PIE session: ThirdPersonExampleMap (May 15, 2018, 6:57:17 PM)
+[2018.05.16-08.57.17:079][740]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.16-08.57.17:258][740]LogPlayLevel: PIE: StaticDuplicateObject took: (0.178887s)
+[2018.05.16-08.57.17:259][740]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.16-08.57.17:259][740]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2018.05.16-08.57.17:259][740]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.179794s)
+[2018.05.16-08.57.17:276][740]LogInit: XAudio2 using 'TCL (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.16-08.57.17:279][740]LogInit: FAudioDevice initialized.
+[2018.05.16-08.57.17:322][740]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.16-08.57.17:333][740]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.16-01.57.17
+[2018.05.16-08.57.17:335][740]LogWorld: Bringing up level for play took: 0.011006
+[2018.05.16-08.57.17:393][740]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0002 seconds. Added 11 classes and 0 folders.
+[2018.05.16-08.57.17:394][740]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap 0.226
+[2018.05.16-08.57.17:395][740]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-08.57.17:651][741]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.078630 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
+[2018.05.16-08.57.28:018][530]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0185
+[2018.05.16-08.57.28:018][530]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.28:018][530]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01A9
+[2018.05.16-08.57.28:018][530]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.28:018][530]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01BE
+[2018.05.16-08.57.28:018][530]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.28:018][530]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01E2
+[2018.05.16-08.57.28:018][530]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.28:018][530]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01F7
+[2018.05.16-08.57.28:018][530]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.35:539][ 88]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0185
+[2018.05.16-08.57.35:539][ 88]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.35:539][ 88]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01A9
+[2018.05.16-08.57.35:539][ 88]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.35:539][ 88]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01BE
+[2018.05.16-08.57.35:540][ 88]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.35:540][ 88]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01E2
+[2018.05.16-08.57.35:540][ 88]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.35:540][ 88]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01F7
+[2018.05.16-08.57.35:540][ 88]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.37:397][227]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0185
+[2018.05.16-08.57.37:397][227]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.37:397][227]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01A9
+[2018.05.16-08.57.37:397][227]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.37:397][227]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01BE
+[2018.05.16-08.57.37:397][227]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.37:397][227]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01E2
+[2018.05.16-08.57.37:397][227]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.37:397][227]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01F7
+[2018.05.16-08.57.37:397][227]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.42:116][582]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0185
+[2018.05.16-08.57.42:116][582]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.42:116][582]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:01A9
+[2018.05.16-08.57.42:116][582]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.42:116][582]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.42:117][582]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.42:117][582]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.45:013][803]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.45:013][803]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.45:013][803]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.45:013][803]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.45:013][803]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.49:433][141]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.49:433][141]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.49:433][141]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.49:433][141]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.49:433][141]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.52:610][385]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.52:611][385]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.52:611][385]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.52:611][385]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.52:611][385]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.54:012][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.54:012][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.54:012][495]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.54:012][495]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.54:012][495]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.57:649][769]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.57:649][769]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.57:649][769]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.57:649][769]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.57:649][769]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.59:046][877]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.59:047][877]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.59:047][877]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.57.59:047][877]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.57.59:047][877]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.58.09:207][664]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.58.09:207][664]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.58.09:207][664]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.58.09:207][664]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.58.09:207][664]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.58.11:813][862]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.58.11:813][862]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.58.11:813][862]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.58.11:813][862]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.05.16-08.58.11:814][862]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.05.16-08.58.23:399][735]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-08.58.23:455][735]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-08.59.51:988][827]BlueprintLog: New page: Compile ThirdPersonCharacter
+[2018.05.16-08.59.54:618][ 48]LogTemp: Repeating last play command: Selected Viewport
+[2018.05.16-08.59.54:651][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-08.59.54:651][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.05.16-08.59.54:651][ 48]PIE: New page: PIE session: ThirdPersonExampleMap (May 15, 2018, 6:59:54 PM)
+[2018.05.16-08.59.54:651][ 48]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2018.05.16-08.59.54:790][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.138052s)
+[2018.05.16-08.59.54:790][ 48]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2018.05.16-08.59.54:790][ 48]LogPlayLevel: PIE: World Init took: (0.000605s)
+[2018.05.16-08.59.54:790][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.138903s)
+[2018.05.16-08.59.54:806][ 48]LogInit: XAudio2 using 'TCL (Intel(R) Display Audio)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2018.05.16-08.59.54:809][ 48]LogInit: FAudioDevice initialized.
+[2018.05.16-08.59.54:837][ 48]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.05.16-08.59.54:848][ 48]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2018.05.16-01.59.54
+[2018.05.16-08.59.54:849][ 48]LogWorld: Bringing up level for play took: 0.011100
+[2018.05.16-08.59.54:851][ 48]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_ThirdPersonExampleMap -0.317
+[2018.05.16-08.59.54:851][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-09.00.13:271][245]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-09.00.13:312][245]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2018.05.16-09.00.14:734][409]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.05.16-09.00.15:488][409]LogSavePackage: Save=719.79ms
+[2018.05.16-09.00.15:488][409]LogSavePackage: Moving '../../../../../../Users/julia/Documents/GitHub/Pipa/Saved/ThirdPersonExampleMap7F20775047CCD197236DDC87B5697326.tmp' to '../../../../../../Users/julia/Documents/GitHub/Pipa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2018.05.16-09.00.15:492][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/julia/Documents/GitHub/Pipa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap
+[2018.05.16-09.00.15:580][409]LogSavePackage: Save=55.75ms
+[2018.05.16-09.00.15:580][409]LogSavePackage: Moving '../../../../../../Users/julia/Documents/GitHub/Pipa/Saved/ThirdPersonExampleMap_BuiltData0F29BD9146C1FE4B020A23AAB6C61ECE.tmp' to '../../../../../../Users/julia/Documents/GitHub/Pipa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset'
+[2018.05.16-09.00.15:582][409]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/julia/Documents/GitHub/Pipa/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap_BuiltData.uasset
