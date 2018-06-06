@@ -1,4 +1,4 @@
-﻿Log file open, 06/06/18 11:16:33
+﻿Log file open, 06/06/18 08:58:17
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
@@ -9,12 +9,12 @@ LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
 LogWindows: File 'VtuneApi32e.dll' does not exist
 LogInit: Display: Running engine for game: Project_Pipa
 LogPlatformFile: Not using cached read wrapper
-LogInit: Display: RandInit(-2020523349) SRandInit(-2020523349).
+LogInit: Display: RandInit(1372465492) SRandInit(1372465492).
 LogInit: Read version file with build ID '3709383'
 LogInit: Overriding engine version to CL 3832480, compatible CL 3709383
 LogInit: Registered custom module enumerator with build ID '3709383'
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.167819
+LogStats: Stats thread started at 0.215541
 LogD3D11RHI: Aftermath initialized
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2D.dll (API version 3709383).
 LogModuleManager: Display: Found up-to-date module file ../../../Engine/Plugins/2D/Paper2D/Binaries/Win64/UE4Editor-Paper2DEditor.dll (API version 3709383).
@@ -196,476 +196,525 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.18/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2018.06.06-18.16.35:019][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.06-18.16.35:019][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2018.06.06-18.16.35:029][  0]LogInit: Computer: 2032-01-275-12
-[2018.06.06-18.16.35:029][  0]LogInit: User: student
-[2018.06.06-18.16.35:029][  0]LogInit: CPU Page size=4096, Cores=4
-[2018.06.06-18.16.35:029][  0]LogInit: High frequency timer resolution =3.507246 MHz
-[2018.06.06-18.16.35:030][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2018.06.06-18.16.35:030][  0]LogMemory: Platform Memory Stats for Windows
-[2018.06.06-18.16.35:030][  0]LogMemory: Process Physical Memory: 273.90 MB used, 273.90 MB peak
-[2018.06.06-18.16.35:030][  0]LogMemory: Process Virtual Memory: 274.69 MB used, 274.69 MB peak
-[2018.06.06-18.16.35:030][  0]LogMemory: Physical Memory: 7299.38 MB used,  9008.20 MB free, 16307.58 MB total
-[2018.06.06-18.16.35:030][  0]LogMemory: Virtual Memory: 629.27 MB used,  9008.20 MB free, 8388608.00 MB total
-[2018.06.06-18.16.35:226][  0]LogInit: Using OS detected language (en-US).
-[2018.06.06-18.16.35:226][  0]LogInit: Using OS detected locale (en-US).
-[2018.06.06-18.16.35:229][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2018.06.06-18.16.35:682][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.06-18.16.35:682][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.06-18.16.35:682][  0]LogInit: Setting process to DPI aware
-[2018.06.06-18.16.35:685][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
-[2018.06.06-18.16.35:685][  0]LogWindows: File 'shcore.dll' does not exist
-[2018.06.06-18.16.35:685][  0]LogInit: Setting process to DPI aware
-[2018.06.06-18.16.35:975][  0]LogD3D11RHI: D3D11 adapters:
-[2018.06.06-18.16.36:002][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
-[2018.06.06-18.16.36:002][  0]LogD3D11RHI:       8084/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2018.06.06-18.16.36:002][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2018.06.06-18.16.36:007][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2018.06.06-18.16.36:007][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
-[2018.06.06-18.16.36:007][  0]LogWindows: EnumDisplayDevices:
-[2018.06.06-18.16.36:007][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
-[2018.06.06-18.16.36:007][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.06.06-18.16.36:007][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.06.06-18.16.36:007][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
-[2018.06.06-18.16.36:008][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
-[2018.06.06-18.16.36:008][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
-[2018.06.06-18.16.36:008][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
-[2018.06.06-18.16.36:008][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2018.06.06-18.16.36:008][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
-[2018.06.06-18.16.36:008][  0]LogD3D11RHI:   Driver Version: 388.31 (internal:23.21.13.8831, unified:388.31)
-[2018.06.06-18.16.36:008][  0]LogD3D11RHI:      Driver Date: 11-14-2017
-[2018.06.06-18.16.36:008][  0]LogRHI: Texture pool is 5659 MB (70% of 8084 MB)
-[2018.06.06-18.16.36:018][  0]LogD3D11RHI: Async texture creation enabled
-[2018.06.06-18.16.36:034][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
-[2018.06.06-18.16.36:075][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (../../../../../../Users/Student/Documents/GitHub/Pipa/Intermediate/Shaders/WorkingDirectory/16748/).
-[2018.06.06-18.16.36:075][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/13204BCC4E7FBC43A9A44B8C59BB830B/'.
-[2018.06.06-18.16.36:075][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2018.06.06-18.16.37:035][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
-[2018.06.06-18.16.37:101][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
-[2018.06.06-18.16.37:168][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
-[2018.06.06-18.16.37:238][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
-[2018.06.06-18.16.37:304][  0]LogTemp: Display: Loaded TP MacTargetPlatform
-[2018.06.06-18.16.37:369][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
-[2018.06.06-18.16.37:436][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
-[2018.06.06-18.16.37:505][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
-[2018.06.06-18.16.37:565][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
-[2018.06.06-18.16.37:638][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
-[2018.06.06-18.16.37:707][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
-[2018.06.06-18.16.37:773][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
-[2018.06.06-18.16.37:839][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
-[2018.06.06-18.16.37:907][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
-[2018.06.06-18.16.38:039][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
-[2018.06.06-18.16.38:039][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
-[2018.06.06-18.16.38:105][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
-[2018.06.06-18.16.38:157][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
-[2018.06.06-18.16.38:262][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
-[2018.06.06-18.16.38:293][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
-[2018.06.06-18.16.38:356][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
-[2018.06.06-18.16.38:420][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
-[2018.06.06-18.16.38:484][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
-[2018.06.06-18.16.38:550][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
-[2018.06.06-18.16.38:550][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2018.06.06-18.16.39:105][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2018.06.06-18.16.39:190][  0]LogDerivedDataCache: Loaded boot cache 0.09s 78MB C:/Users/Student/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.06.06-18.16.39:190][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
-[2018.06.06-18.16.39:190][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Student/Documents/GitHub/Pipa/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2018.06.06-18.16.39:190][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2018.06.06-18.16.39:190][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Student/Documents/GitHub/Pipa/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2018.06.06-18.16.39:190][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2018.06.06-18.16.39:209][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2018.06.06-18.16.39:221][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2018.06.06-18.16.39:232][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2018.06.06-18.16.39:232][  0]LogSlate: Using Freetype 2.6.0
-[2018.06.06-18.16.39:233][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.06-18.16.39:233][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2018.06.06-18.16.39:663][  0]LogInit: Selected Device Profile: [Windows]
-[2018.06.06-18.16.40:060][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2018.06.06-18.16.40:113][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
-[2018.06.06-18.16.40:114][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2018.06.06-18.16.40:114][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
-[2018.06.06-18.16.40:114][  0]LogMeshReduction: No automatic mesh merging module available
-[2018.06.06-18.16.40:114][  0]LogMeshMerging: No automatic mesh merging module available
-[2018.06.06-18.16.40:147][  0]LogNetVersion: Project_Pipa , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 535431600)
-[2018.06.06-18.16.40:322][  0]LogAssetRegistry: FAssetRegistry took 0.0244 seconds to start up
-[2018.06.06-18.16.40:870][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.056270 seconds
-[2018.06.06-18.16.40:877][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
-[2018.06.06-18.16.40:877][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
-[2018.06.06-18.16.40:877][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2018.06.06-18.16.40:938][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2018.06.06-18.16.44:105][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2018.06.06-18.16.44:152][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2018.06.06-18.16.44:965][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2018.06.06-18.16.45:485][  0]SourceControl: Source control is disabled
-[2018.06.06-18.16.45:485][  0]SourceControl: Source control is disabled
-[2018.06.06-18.16.45:551][  0]SourceControl: Source control is disabled
-[2018.06.06-18.16.45:618][  0]SourceControl: Source control is disabled
-[2018.06.06-18.16.46:621][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2018.06.06-18.16.46:957][  0]LogOcInput: OculusInput pre-init called
-[2018.06.06-18.16.47:310][  0]LogEngine: Initializing Engine...
-[2018.06.06-18.16.47:313][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2018.06.06-18.16.47:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2018.06.06-18.16.47:541][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2018.06.06-18.16.47:710][  0]LogAIModule: Creating AISystem for world Untitled
-[2018.06.06-18.16.47:718][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.06-18.16.47:739][  0]LogInit: FAudioDevice initialized.
-[2018.06.06-18.16.47:817][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/Student/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
-[2018.06.06-18.16.47:829][  0]LogInit: Texture streaming: Enabled
-[2018.06.06-18.16.47:947][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2018.06.06-18.16.48:107][  0]LogInit: Transaction tracking system initialized
-[2018.06.06-18.16.48:505][  0]BlueprintLog: New page: Editor Load
-[2018.06.06-18.16.49:617][  0]LocalizationService: Localization service is disabled
-[2018.06.06-18.16.50:545][  0]LogConsoleResponse: Display: 
-[2018.06.06-18.16.50:739][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2018.06.06-18.16.50:739][  0]LogCook: Display: Mobile HDR setting 1
-[2018.06.06-18.16.50:739][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
-[2018.06.06-18.16.51:615][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/Pipa/Content/' took 0.03s
-[2018.06.06-18.16.52:218][  0]SourceControl: Source control is disabled
-[2018.06.06-18.16.52:218][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Student/Documents/GitHub/Pipa/Content/ThirdPersonBP/Maps/Main_Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2018.06.06-18.16.52:218][  0]LightingResults: New page: Lighting Build
-[2018.06.06-18.16.52:272][  0]MapCheck: New page: Map Check
-[2018.06.06-18.16.52:272][  0]LightingResults: New page: Lighting Build
-[2018.06.06-18.16.52:934][  0]LogBlueprint: Warning: [Compiler PersistentLevel.Main_Blockout] Get : 'CameraBoom' variable not found. Base class was probably changed. /Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout
-[2018.06.06-18.16.52:935][  0]LogBlueprint: Warning: [Compiler PersistentLevel.Main_Blockout] [0020.47] Compile of PersistentLevel.Main_Blockout successful, but with 1 Warning(s) [in 1 ms] (/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout)
-[2018.06.06-18.16.53:730][  0]LogAIModule: Creating AISystem for world Main_Blockout
-[2018.06.06-18.16.53:764][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2018.06.06-18.16.53:784][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2018.06.06-18.16.53:856][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 71.262ms to complete.
-[2018.06.06-18.16.53:856][  0]LogFileHelpers: Loading map 'Main_Blockout' took 1.639
-[2018.06.06-18.16.53:997][  0]LogCollectionManager: Loaded 0 collections in 0.001866 seconds
-[2018.06.06-18.16.54:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/Pipa/Saved/Collections/' took 0.01s
-[2018.06.06-18.16.54:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/Pipa/Content/Developers/student/Collections/' took 0.01s
-[2018.06.06-18.16.54:085][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/GitHub/Pipa/Content/Collections/' took 0.01s
-[2018.06.06-18.16.54:085][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2018.06.06-18.16.54:095][  0]LogContentBrowser: Native class hierarchy populated in 0.0095 seconds. Added 2363 classes and 519 folders.
-[2018.06.06-18.16.54:177][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2018.06.06-18.16.54:219][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
-[2018.06.06-18.16.54:274][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.06.06-18.16.54:366][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2018.06.06-18.16.54:366][  0]LogLoad: (Engine Initialization) Total time: 21.90 seconds
-[2018.06.06-18.16.54:366][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2018.06.06-18.16.54:366][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2018.06.06-18.16.54:730][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2018.06.06-18.16.54:731][  0]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2018.06.06-18.16.54:733][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2018.06.06-18.16.54:739][  0]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2018.06.06-18.16.54:849][  0]LogSlate: Took 0.000257 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2018.06.06-18.16.55:082][  2]LogRenderer: Reallocating scene render targets to support 1080x476 Format 10 NumSamples 1 (Frame:1).
-[2018.06.06-18.16.55:383][  2]LogAssetRegistry: Asset discovery search completed in 15.0773 seconds
-[2018.06.06-18.16.55:385][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2018.06.06-18.16.55:385][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
-[2018.06.06-18.17.08:441][ 94]LogTemp: Repeating last play command: Selected Viewport
-[2018.06.06-18.17.08:690][ 94]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
-[2018.06.06-18.17.08:690][ 94]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2018.06.06-18.17.08:690][ 94]PIE: New page: PIE session: Main_Blockout (Jun 6, 2018, 4:17:08 AM)
-[2018.06.06-18.17.08:691][ 94]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout
-[2018.06.06-18.17.08:912][ 94]LogPlayLevel: PIE: StaticDuplicateObject took: (0.221569s)
-[2018.06.06-18.17.08:913][ 94]LogAIModule: Creating AISystem for world Main_Blockout
-[2018.06.06-18.17.08:913][ 94]LogPlayLevel: PIE: World Init took: (0.000975s)
-[2018.06.06-18.17.08:913][ 94]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout (0.222912s)
-[2018.06.06-18.17.08:927][ 94]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2018.06.06-18.17.08:935][ 94]LogInit: FAudioDevice initialized.
-[2018.06.06-18.17.08:976][ 94]LogLoad: Game class is 'ThirdPersonGameMode_C'
-[2018.06.06-18.17.08:995][ 94]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout up for play (max tick rate 0) at 2018.06.06-11.17.08
-[2018.06.06-18.17.08:997][ 94]LogWorld: Bringing up level for play took: 0.019664
-[2018.06.06-18.17.09:052][ 94]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
-[2018.06.06-18.17.09:054][ 94]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout 0.889
-[2018.06.06-18.17.09:055][ 94]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
-[2018.06.06-18.17.09:203][ 95]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073929 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
-[2018.06.06-18.17.23:780][826]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
-[2018.06.06-18.17.23:815][826]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
-[2018.06.06-18.19.28:190][268]Cmd: QUIT_EDITOR
-[2018.06.06-18.19.28:223][268]LogExit: Preparing to exit.
-[2018.06.06-18.19.29:264][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/Pipa/Content/' was aborted.
-[2018.06.06-18.19.29:288][268]LogExit: Editor shut down
-[2018.06.06-18.19.29:293][268]LogExit: Transaction tracking system shut down
-[2018.06.06-18.19.29:408][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2018.06.06-18.19.29:408][268]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Student/Documents/GitHub/Pipa/Content/' was aborted.
-[2018.06.06-18.19.29:408][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2018.06.06-18.19.29:408][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Media/MediaCompositing/Content/' was aborted.
-[2018.06.06-18.19.29:408][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/AppleARKit/Content/' was aborted.
-[2018.06.06-18.19.29:408][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
-[2018.06.06-18.19.29:408][268]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
-[2018.06.06-18.19.29:470][268]LogExit: Object subsystem successfully closed.
-[2018.06.06-18.19.29:498][268]LogD3D11RHI: Shutdown
-[2018.06.06-18.19.29:498][268]LogD3D11RHI: CleanupD3DDevice
-[2018.06.06-18.19.29:500][268]LogD3D11RHI: ~FD3D11DynamicRHI
-[2018.06.06-18.19.29:518][268]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (550)
-[2018.06.06-18.19.29:518][268]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (548)
-[2018.06.06-18.19.29:518][268]LogModuleManager: Shutting down and abandoning module SceneOutliner (546)
-[2018.06.06-18.19.29:518][268]LogModuleManager: Shutting down and abandoning module AddContentDialog (544)
-[2018.06.06-18.19.29:519][268]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.18/FeaturePacks/' was aborted.
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module WidgetCarousel (543)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module EditorWidgets (540)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module CollectionManager (538)
-[2018.06.06-18.19.29:520][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/Pipa/Content/Collections/' was aborted.
-[2018.06.06-18.19.29:520][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/Pipa/Content/Developers/student/Collections/' was aborted.
-[2018.06.06-18.19.29:520][268]LogDirectoryWatcher: A directory notification for 'C:/Users/Student/Documents/GitHub/Pipa/Saved/Collections/' was aborted.
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module StatsViewer (536)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module FoliageEdit (534)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module LandscapeEditor (532)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module MeshPaintMode (530)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (528)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module ActorPickerMode (526)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module GeometryMode (524)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module TextureAlignMode (522)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module BspMode (520)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (518)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module HardwareSurvey (516)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (514)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module AutomationWorker (512)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (510)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (508)
-[2018.06.06-18.19.29:520][268]LogModuleManager: Shutting down and abandoning module PlacementMode (507)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (504)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (502)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (500)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (498)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (496)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (494)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (492)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (490)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (488)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module CharacterAI (486)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module AudioCapture (484)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module SequenceRecorder (483)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module SmartSnapping (480)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module SessionServices (478)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module ViewportSnapping (476)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module ViewportInteraction (474)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module ClothPainter (472)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (471)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module LogVisualizer (468)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module IntroTutorials (466)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (465)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (462)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (460)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (458)
-[2018.06.06-18.19.29:521][268]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (457)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (454)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (452)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (450)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module InputBindingEditor (448)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module MergeActors (446)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module SizeMap (444)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module TreeMap (442)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module ReferenceViewer (440)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (438)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module LocalizationService (437)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module HardwareTargeting (434)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (432)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module UndoHistory (430)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module XmlParser (428)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module Blutility (426)
-[2018.06.06-18.19.30:176][268]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (424)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (423)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (420)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module SettingsEditor (418)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module ProjectLauncher (416)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module SessionFrontend (414)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module ProfilerClient (412)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module DeviceManager (410)
-[2018.06.06-18.19.30:177][268]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (409)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module AutomationController (406)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module AutomationWindow (404)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module Layers (402)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (400)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module DetailCustomizations (398)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module PackagesDialog (396)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module Persona (394)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (393)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module AnimGraph (391)
-[2018.06.06-18.19.30:227][268]LogModuleManager: Shutting down and abandoning module Kismet (388)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module ClassViewer (386)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module Toolbox (384)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module ModuleUI (382)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module MovieSceneTools (380)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module OutputLog (378)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module GammaUI (376)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module Documentation (374)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (372)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module MovieScene (370)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (368)
-[2018.06.06-18.19.30:228][268]LogModuleManager: Shutting down and abandoning module LauncherPlatform (366)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module AnalyticsET (364)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module PortalServices (362)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module PortalRpc (360)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module MessagingRpc (358)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module AIModule (356)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module GameplayDebugger (355)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module AITestSuite (353)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module DesktopPlatform (350)
-[2018.06.06-18.19.30:229][268]LogModuleManager: Shutting down and abandoning module ProfilerService (348)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module TaskGraph (346)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module SteamVRController (344)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (342)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (340)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module OculusInput (338)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (336)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (334)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module CableComponent (332)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (330)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module AndroidPermission (328)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module ActorSequence (324)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (322)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (320)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module MediaCompositing (318)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module HTML5Networking (316)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module AlembicImporter (314)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module AlembicLibrary (313)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module GeometryCache (312)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (311)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (306)
-[2018.06.06-18.19.30:328][268]LogModuleManager: Shutting down and abandoning module PluginBrowser (304)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (302)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (300)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (298)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module UObjectPlugin (296)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (294)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (292)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module GitSourceControl (290)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module SourceControl (289)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (286)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (284)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (282)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module Paper2DEditor (280)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module MeshPaint (279)
-[2018.06.06-18.19.30:329][268]LogModuleManager: Shutting down and abandoning module LevelEditor (277)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (276)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module MainFrame (274)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module HotReload (273)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (268)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (266)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module PhysXVehicles (264)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module OculusEditor (262)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (260)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (258)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (256)
-[2018.06.06-18.19.30:330][268]LogModuleManager: Shutting down and abandoning module UdpMessaging (254)
-[2018.06.06-18.19.30:430][268]LogModuleManager: Shutting down and abandoning module TcpMessaging (252)
-[2018.06.06-18.19.30:530][268]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (250)
-[2018.06.06-18.19.30:530][268]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (248)
-[2018.06.06-18.19.30:530][268]LogModuleManager: Shutting down and abandoning module FacialAnimation (246)
-[2018.06.06-18.19.30:530][268]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (244)
-[2018.06.06-18.19.30:530][268]LogModuleManager: Shutting down and abandoning module GraphEditor (243)
-[2018.06.06-18.19.30:530][268]LogModuleManager: Shutting down and abandoning module ContentBrowser (241)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (238)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module Paper2D (236)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (234)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module WmfMedia (232)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module ImgMedia (230)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module PacketHandler (228)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (226)
-[2018.06.06-18.19.30:531][268]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (224)
-[2018.06.06-18.19.30:532][268]LogModuleManager: Shutting down and abandoning module MediaAssets (222)
-[2018.06.06-18.19.30:532][268]LogModuleManager: Shutting down and abandoning module Media (221)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module Overlay (218)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module OverlayEditor (217)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module VREditor (214)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module StringTableEditor (212)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (210)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (208)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module FunctionalTesting (206)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (204)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (203)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module UMG (200)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module UMGEditor (199)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module Sequencer (198)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module MessageLog (195)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module SlateReflector (190)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module Slate (188)
-[2018.06.06-18.19.30:537][268]LogModuleManager: Shutting down and abandoning module EditorStyle (186)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module MRMesh (184)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (182)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (180)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module XAudio2 (178)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module Networking (176)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module Core (172)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module LevelSequence (168)
-[2018.06.06-18.19.30:540][268]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (166)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module MeshUtilities (162)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (161)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (160)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (159)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (157)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (155)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module MaterialBaking (151)
-[2018.06.06-18.19.30:541][268]LogModuleManager: Shutting down and abandoning module DerivedDataCache (148)
-[2018.06.06-18.19.30:548][268]LogDerivedDataCache: Shutdown
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TargetPlatform (146)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (145)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (143)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (141)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (139)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (137)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (135)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (133)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (131)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (129)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (127)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module ImageWrapper (126)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (123)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (121)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (119)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (117)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (115)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (113)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (111)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (109)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (107)
-[2018.06.06-18.19.30:548][268]LogModuleManager: Shutting down and abandoning module Messaging (105)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (103)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (101)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (99)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (97)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (95)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (93)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (91)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (89)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (87)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (85)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (83)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (81)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (79)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (77)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (75)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (73)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (71)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (69)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (67)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module InputCore (64)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module Settings (62)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module PhysXCooking (60)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module SteamVR (58)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module OculusHMD (56)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (54)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module AppleARKit (52)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module AugmentedReality (51)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2018.06.06-18.19.30:549][268]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2018.06.06-18.19.30:549][268]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2018.06.06-18.19.30:549][268]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5E1C09FE-401D-054B-8257-CDBBC254C17D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.18.3-3832480%2B%2B%2BUE4%2BRelease-4.18&UserID=252160004742d8e669c7d4a73b6683d6%7C213482240af4450d95fd3055adec7c98%7C073f2075-099d-4727-a834-ad09ed1f8e78&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2018.06.06-18.19.30:559][268]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2018.06.06-18.19.30:560][268]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
-[2018.06.06-18.19.30:560][268]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
-[2018.06.06-18.19.30:560][268]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
-[2018.06.06-18.19.30:560][268]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
-[2018.06.06-18.19.30:561][268]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
-[2018.06.06-18.19.30:561][268]LogModuleManager: Shutting down and abandoning module Landscape (26)
-[2018.06.06-18.19.30:561][268]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module Renderer (16)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module Engine (14)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2018.06.06-18.19.30:562][268]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2018.06.06-18.19.30:564][268]LogExit: Exiting.
-[2018.06.06-18.19.30:579][268]Log file closed, 06/06/18 11:19:30
+[2018.06.06-15.58.19:510][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.06-15.58.19:510][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2018.06.06-15.58.19:542][  0]LogInit: Computer: 2032-01-275-22
+[2018.06.06-15.58.19:542][  0]LogInit: User: student
+[2018.06.06-15.58.19:542][  0]LogInit: CPU Page size=4096, Cores=4
+[2018.06.06-15.58.19:542][  0]LogInit: High frequency timer resolution =3.507216 MHz
+[2018.06.06-15.58.19:543][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2018.06.06-15.58.19:543][  0]LogMemory: Platform Memory Stats for Windows
+[2018.06.06-15.58.19:543][  0]LogMemory: Process Physical Memory: 274.57 MB used, 274.57 MB peak
+[2018.06.06-15.58.19:543][  0]LogMemory: Process Virtual Memory: 268.64 MB used, 268.64 MB peak
+[2018.06.06-15.58.19:543][  0]LogMemory: Physical Memory: 4601.63 MB used,  11705.93 MB free, 16307.56 MB total
+[2018.06.06-15.58.19:543][  0]LogMemory: Virtual Memory: 623.27 MB used,  11705.93 MB free, 8388608.00 MB total
+[2018.06.06-15.58.19:732][  0]LogInit: Using OS detected language (en-US).
+[2018.06.06-15.58.19:732][  0]LogInit: Using OS detected locale (en-US).
+[2018.06.06-15.58.19:737][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2018.06.06-15.58.20:186][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.06.06-15.58.20:186][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.06.06-15.58.20:186][  0]LogInit: Setting process to DPI aware
+[2018.06.06-15.58.20:188][  0]LogWindows: Failed to load 'shcore.dll' (GetLastError=126)
+[2018.06.06-15.58.20:188][  0]LogWindows: File 'shcore.dll' does not exist
+[2018.06.06-15.58.20:188][  0]LogInit: Setting process to DPI aware
+[2018.06.06-15.58.20:450][  0]LogD3D11RHI: D3D11 adapters:
+[2018.06.06-15.58.20:476][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2018.06.06-15.58.20:476][  0]LogD3D11RHI:       8084/0/7897 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2018.06.06-15.58.20:476][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2018.06.06-15.58.20:480][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2018.06.06-15.58.20:480][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2018.06.06-15.58.20:481][  0]LogWindows: EnumDisplayDevices:
+[2018.06.06-15.58.20:481][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2018.06.06-15.58.20:481][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.06.06-15.58.20:481][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.06.06-15.58.20:481][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2018.06.06-15.58.20:481][  0]LogWindows:    4. 'RDPDD Chained DD' (P:0 D:0)
+[2018.06.06-15.58.20:481][  0]LogWindows:    5. 'RDP Encoder Mirror Driver' (P:0 D:0)
+[2018.06.06-15.58.20:481][  0]LogWindows:    6. 'RDP Reflector Display Driver' (P:0 D:0)
+[2018.06.06-15.58.20:481][  0]LogWindows: DebugString: GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter GetVideoDriverDetailsInvalid PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2018.06.06-15.58.20:481][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2018.06.06-15.58.20:481][  0]LogD3D11RHI:   Driver Version: 388.31 (internal:23.21.13.8831, unified:388.31)
+[2018.06.06-15.58.20:481][  0]LogD3D11RHI:      Driver Date: 11-14-2017
+[2018.06.06-15.58.20:481][  0]LogRHI: Texture pool is 5659 MB (70% of 8084 MB)
+[2018.06.06-15.58.20:492][  0]LogD3D11RHI: Async texture creation enabled
+[2018.06.06-15.58.20:508][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2018.06.06-15.58.20:549][  0]LogShaderCompilers: Guid format shader working directory is 17 characters bigger than the processId version (F:/Game Prototyping/Week_9/Pipa/Intermediate/Shaders/WorkingDirectory/6680/).
+[2018.06.06-15.58.20:549][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/student/AppData/Local/Temp/UnrealShaderWorkingDir/6A91E57649C63553D2678589C84D93F1/'.
+[2018.06.06-15.58.20:549][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2018.06.06-15.58.21:577][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2018.06.06-15.58.21:642][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2018.06.06-15.58.21:706][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2018.06.06-15.58.21:769][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2018.06.06-15.58.21:832][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2018.06.06-15.58.21:895][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2018.06.06-15.58.21:959][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2018.06.06-15.58.22:022][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2018.06.06-15.58.22:084][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2018.06.06-15.58.22:146][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2018.06.06-15.58.22:209][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2018.06.06-15.58.22:272][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2018.06.06-15.58.22:334][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2018.06.06-15.58.22:396][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2018.06.06-15.58.22:521][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2018.06.06-15.58.22:521][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2018.06.06-15.58.22:583][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2018.06.06-15.58.22:632][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2018.06.06-15.58.22:736][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2018.06.06-15.58.22:766][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2018.06.06-15.58.22:828][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2018.06.06-15.58.22:890][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2018.06.06-15.58.22:951][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2018.06.06-15.58.23:014][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2018.06.06-15.58.23:014][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2018.06.06-15.58.23:576][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2018.06.06-15.58.23:845][  0]LogDerivedDataCache: Loaded boot cache 0.27s 69MB C:/Users/student/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.06.06-15.58.23:846][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/student/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc
+[2018.06.06-15.58.23:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file F:/Game Prototyping/Week_9/Pipa/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2018.06.06-15.58.23:846][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2018.06.06-15.58.23:846][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file F:/Game Prototyping/Week_9/Pipa/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2018.06.06-15.58.23:846][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2018.06.06-15.58.23:865][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2018.06.06-15.58.23:877][  0]LogDerivedDataCache: Using Local data cache path C:/Users/student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2018.06.06-15.58.23:888][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2018.06.06-15.58.23:888][  0]LogSlate: Using Freetype 2.6.0
+[2018.06.06-15.58.23:889][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.06-15.58.23:889][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2018.06.06-15.58.24:748][  0]LogInit: Selected Device Profile: [Windows]
+[2018.06.06-15.58.25:149][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2018.06.06-15.58.25:202][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2018.06.06-15.58.25:202][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2018.06.06-15.58.25:202][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2018.06.06-15.58.25:202][  0]LogMeshReduction: No automatic mesh merging module available
+[2018.06.06-15.58.25:202][  0]LogMeshMerging: No automatic mesh merging module available
+[2018.06.06-15.58.25:231][  0]LogNetVersion: Project_Pipa , NetCL: 3709383, EngineNetVer: 2, GameNetVer: 0 (Checksum: 535431600)
+[2018.06.06-15.58.25:409][  0]LogAssetRegistry: FAssetRegistry took 0.0290 seconds to start up
+[2018.06.06-15.58.26:608][  0]LogPackageLocalizationCache: Processed 7 localized package path(s) for 2 prioritized culture(s) in 0.702931 seconds
+[2018.06.06-15.58.26:613][  0]LogUObjectArray: 35870 objects as part of root set at end of initial load.
+[2018.06.06-15.58.26:613][  0]LogUObjectAllocator: 7363704 out of 0 bytes used by permanent object pool.
+[2018.06.06-15.58.26:613][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2018.06.06-15.58.26:674][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2018.06.06-15.58.29:840][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2018.06.06-15.58.29:887][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2018.06.06-15.58.30:700][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2018.06.06-15.58.31:216][  0]SourceControl: Source control is disabled
+[2018.06.06-15.58.31:216][  0]SourceControl: Source control is disabled
+[2018.06.06-15.58.31:283][  0]SourceControl: Source control is disabled
+[2018.06.06-15.58.31:349][  0]SourceControl: Source control is disabled
+[2018.06.06-15.58.32:344][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2018.06.06-15.58.32:678][  0]LogOcInput: OculusInput pre-init called
+[2018.06.06-15.58.33:024][  0]LogEngine: Initializing Engine...
+[2018.06.06-15.58.33:026][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2018.06.06-15.58.33:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2018.06.06-15.58.33:274][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2018.06.06-15.58.33:435][  0]LogAIModule: Creating AISystem for world Untitled
+[2018.06.06-15.58.33:445][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.06-15.58.33:467][  0]LogInit: FAudioDevice initialized.
+[2018.06.06-15.58.33:549][  0]LogDerivedDataCache: Saved boot cache 0.08s 78MB C:/Users/student/AppData/Local/UnrealEngine/4.18/DerivedDataCache/Boot.ddc.
+[2018.06.06-15.58.33:564][  0]LogInit: Texture streaming: Enabled
+[2018.06.06-15.58.33:687][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2018.06.06-15.58.33:844][  0]LogInit: Transaction tracking system initialized
+[2018.06.06-15.58.34:237][  0]BlueprintLog: New page: Editor Load
+[2018.06.06-15.58.35:354][  0]LocalizationService: Localization service is disabled
+[2018.06.06-15.58.36:275][  0]LogConsoleResponse: Display: 
+[2018.06.06-15.58.36:473][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2018.06.06-15.58.36:473][  0]LogCook: Display: Mobile HDR setting 1
+[2018.06.06-15.58.36:473][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2018.06.06-15.58.37:136][  0]LogFileCache: Scanning file cache for directory 'F:/Game Prototyping/Week_9/Pipa/Content/' took 0.03s
+[2018.06.06-15.58.37:962][  0]SourceControl: Source control is disabled
+[2018.06.06-15.58.37:962][  0]Cmd: MAP LOAD FILE="F:/Game Prototyping/Week_9/Pipa/Content/ThirdPersonBP/Maps/Main_Blockout.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2018.06.06-15.58.37:967][  0]LightingResults: New page: Lighting Build
+[2018.06.06-15.58.38:020][  0]MapCheck: New page: Map Check
+[2018.06.06-15.58.38:020][  0]LightingResults: New page: Lighting Build
+[2018.06.06-15.58.38:716][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/QTEPack/Blueprints/QTE_Component.QTE_Component_C:Timer_Settings'. Unknown structure.
+[2018.06.06-15.58.38:719][  0]LogProperty: Error: UStructProperty::Serialize Loading: Property 'StructProperty /Game/QTEPack/Blueprints/QTE_Component.QTE_Component_C:Input_Settings'. Unknown structure.
+[2018.06.06-15.58.38:999][  0]LogClass: Warning: Property Timer_Settings of Timer_Settings has a struct type mismatch (tag STRUCT_REINST_Timer_Struct_6 != prop FallbackStruct) in package:  F:/Game Prototyping/Week_9/Pipa/Content/QTEPack/Blueprints/QTE_Component.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.06.06-15.58.38:999][  0]LogClass: Warning: Property Input_Settings of Input_Settings has a struct type mismatch (tag STRUCT_REINST_Keys_Struct_0 != prop FallbackStruct) in package:  F:/Game Prototyping/Week_9/Pipa/Content/QTEPack/Blueprints/QTE_Component.uasset. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.06.06-15.58.39:060][  0]LogClass: Warning: Enum '/Game/QTEPack/Blueprints/Enum_QTETypes.Enum_QTETypes' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.06.06-15.58.39:200][  0]LogClass: Warning: Property Timer_Settings of Timer_Settings has a struct type mismatch (tag FallbackStruct != prop Timer_Struct) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.06.06-15.58.39:200][  0]LogClass: Warning: Property Input_Settings of Input_Settings has a struct type mismatch (tag FallbackStruct != prop Keys_Struct) in package:  FObjectReader. If that struct got renamed, add an entry to ActiveStructRedirects.
+[2018.06.06-15.58.39:562][  0]LogBlueprint: Warning: [Compiler PersistentLevel.Main_Blockout] Get : 'CameraBoom' variable not found. Base class was probably changed. /Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout
+[2018.06.06-15.58.39:565][  0]LogBlueprint: Warning: [Compiler PersistentLevel.Main_Blockout] [0023.83] Compile of PersistentLevel.Main_Blockout successful, but with 1 Warning(s) [in 5 ms] (/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout)
+[2018.06.06-15.58.41:216][  0]LogClass: Warning: Enum '/Game/QTEPack/Blueprints/Enum_QTE_State.Enum_QTE_State' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.06.06-15.58.42:015][  0]LogAIModule: Creating AISystem for world Main_Blockout
+[2018.06.06-15.58.42:069][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2018.06.06-15.58.42:096][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2018.06.06-15.58.42:197][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 101.153ms to complete.
+[2018.06.06-15.58.42:197][  0]LogFileHelpers: Loading map 'Main_Blockout' took 4.234
+[2018.06.06-15.58.42:327][  0]LogCollectionManager: Loaded 0 collections in 0.001790 seconds
+[2018.06.06-15.58.42:414][  0]LogFileCache: Scanning file cache for directory 'F:/Game Prototyping/Week_9/Pipa/Saved/Collections/' took 0.01s
+[2018.06.06-15.58.42:414][  0]LogFileCache: Scanning file cache for directory 'F:/Game Prototyping/Week_9/Pipa/Content/Developers/student/Collections/' took 0.01s
+[2018.06.06-15.58.42:414][  0]LogFileCache: Scanning file cache for directory 'F:/Game Prototyping/Week_9/Pipa/Content/Collections/' took 0.01s
+[2018.06.06-15.58.42:414][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2018.06.06-15.58.42:423][  0]LogContentBrowser: Native class hierarchy populated in 0.0092 seconds. Added 2363 classes and 519 folders.
+[2018.06.06-15.58.42:503][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2018.06.06-15.58.42:560][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2018.06.06-15.58.42:618][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.06.06-15.58.42:738][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2018.06.06-15.58.42:738][  0]LogLoad: (Engine Initialization) Total time: 27.00 seconds
+[2018.06.06-15.58.42:738][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2018.06.06-15.58.42:738][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2018.06.06-15.58.42:770][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2018.06.06-15.58.42:773][  0]LogSlate: Took 0.001477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.06-15.58.42:775][  0]LogSlate: Took 0.000464 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2018.06.06-15.58.42:780][  0]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2018.06.06-15.58.42:922][  0]LogSlate: Took 0.001723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.06-15.58.42:954][  1]LogRenderer: Reallocating scene render targets to support 1080x476 Format 10 NumSamples 1 (Frame:1).
+[2018.06.06-15.58.43:064][  2]LogAssetRegistry: Asset discovery search completed in 17.6721 seconds
+[2018.06.06-15.58.43:066][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2018.06.06-15.58.43:066][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000074 seconds (updated 0 objects)
+[2018.06.06-15.58.43:797][ 61]LogSlate: Took 0.000275 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.06-15.58.48:084][499]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-15.58.48:622][499]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-15.58.48:622][499]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-15.58.48:623][499]PIE: New page: PIE session: Main_Blockout (Jun 6, 2018, 1:58:48 AM)
+[2018.06.06-15.58.48:623][499]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout
+[2018.06.06-15.58.48:842][499]LogPlayLevel: PIE: StaticDuplicateObject took: (0.219337s)
+[2018.06.06-15.58.48:843][499]LogAIModule: Creating AISystem for world Main_Blockout
+[2018.06.06-15.58.48:843][499]LogPlayLevel: PIE: World Init took: (0.000894s)
+[2018.06.06-15.58.48:844][499]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout (0.220605s)
+[2018.06.06-15.58.48:856][499]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.06-15.58.48:862][499]LogInit: FAudioDevice initialized.
+[2018.06.06-15.58.48:905][499]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.06-15.58.48:932][499]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout up for play (max tick rate 0) at 2018.06.06-08.58.48
+[2018.06.06-15.58.48:943][499]LogWorld: Bringing up level for play took: 0.036248
+[2018.06.06-15.58.48:997][499]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 11 classes and 0 folders.
+[2018.06.06-15.58.48:997][499]LogBlueprintUserMessages: [DynamicTargetingComponent] Casting to owner as character has FAILED
+[2018.06.06-15.58.48:999][499]LogActor: Error: SetOwner(): Failed to set 'ThirdPersonCharacter_167' owner of 'ThirdPersonCharacter_167' because it would cause an Owner loop
+[2018.06.06-15.58.48:999][499]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/QTEPack/Blueprints/QTE_Component.QTE_Component_C:Spawn_Widget'!
+[2018.06.06-15.58.49:002][499]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout -0.305
+[2018.06.06-15.58.49:002][499]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-15.58.49:012][499]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.58.49:012][499]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.58.49:156][500]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.073929 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
+[2018.06.06-15.58.49:671][538]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.58.49:672][538]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.58.49:714][542]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_16
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.58.49:714][542]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.58.49:725][543]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.58.49:725][543]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.58.49:747][545]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.58.49:747][545]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.58.58:333][344]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.58.58:333][344]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.58.58:491][358]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-15.58.58:491][358]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-15.58.58:491][358]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-15.58.58:491][358]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-15.58.59:954][490]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-15.58.59:954][490]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-15.59.00:036][497]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.59.00:036][497]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.59.00:948][579]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-15.59.00:983][579]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-15.59.07:901][ 15]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2018.06.06-15.59.08:226][ 15]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator0' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.06.06-15.59.08:226][ 15]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator1' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.06.06-15.59.08:226][ 15]LogEnum: Warning: Enum name collision: 'ERotationMode::ERotationMode_MAX' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.06.06-15.59.08:226][ 15]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator0' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.06.06-15.59.08:226][ 15]LogEnum: Warning: Enum name collision: 'ERotationMode::NewEnumerator1' is in both '/Game/Content/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode' and '/Game/DynamicTargeting/DynamicTargetingFiles/ERotationMode.ERotationMode'
+[2018.06.06-15.59.08:235][ 15]LogClass: Warning: Enum '/Game/QTEPack/Starter/DemoRoom/BluePrint/BP_DemoDisplay_Enum.BP_DemoDisplay_Enum' was upgraded to use FText to store its display name data. Please re-save this asset to avoid issues with localization and determinstic cooking.
+[2018.06.06-15.59.08:297][ 15]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 116 classes and 0 folders.
+[2018.06.06-15.59.09:174][ 15]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2018.06.06-15.59.09:257][ 15]LogSlate: Took 0.001768 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2018.06.06-15.59.11:178][101]LogSlate: Took 0.001669 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2018.06.06-15.59.50:455][290]BlueprintLog: New page: Compile OB_Crack
+[2018.06.06-15.59.53:575][437]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-15.59.53:623][437]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-15.59.53:623][437]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-15.59.53:623][437]PIE: New page: PIE session: Main_Blockout (Jun 6, 2018, 1:59:53 AM)
+[2018.06.06-15.59.53:623][437]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout
+[2018.06.06-15.59.53:822][437]LogPlayLevel: PIE: StaticDuplicateObject took: (0.199175s)
+[2018.06.06-15.59.53:823][437]LogAIModule: Creating AISystem for world Main_Blockout
+[2018.06.06-15.59.53:823][437]LogPlayLevel: PIE: World Init took: (0.000902s)
+[2018.06.06-15.59.53:823][437]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout (0.200430s)
+[2018.06.06-15.59.53:843][437]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.06-15.59.53:850][437]LogInit: FAudioDevice initialized.
+[2018.06.06-15.59.53:878][437]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.06-15.59.53:905][437]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout up for play (max tick rate 0) at 2018.06.06-08.59.53
+[2018.06.06-15.59.53:915][437]LogWorld: Bringing up level for play took: 0.036180
+[2018.06.06-15.59.53:917][437]LogBlueprintUserMessages: [DynamicTargetingComponent] Casting to owner as character has FAILED
+[2018.06.06-15.59.53:917][437]LogActor: Error: SetOwner(): Failed to set 'ThirdPersonCharacter_167' owner of 'ThirdPersonCharacter_167' because it would cause an Owner loop
+[2018.06.06-15.59.53:918][437]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/QTEPack/Blueprints/QTE_Component.QTE_Component_C:Spawn_Widget'!
+[2018.06.06-15.59.53:920][437]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout 0.623
+[2018.06.06-15.59.53:921][437]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-15.59.53:929][437]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.59.53:929][437]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.59.54:467][476]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.59.54:468][476]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.59.54:510][480]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_16
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.59.54:510][480]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.59.54:521][481]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.59.54:521][481]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-15.59.54:543][483]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-15.59.54:543][483]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.00.00:337][998]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.00.01:057][ 59]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.00.02:480][176]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.00.04:201][313]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.00.04:201][313]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.00.04:546][341]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.00.05:212][393]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.00.06:078][459]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.00.07:682][585]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.00.07:683][585]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.00.10:074][778]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.00.10:074][778]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.00.11:865][920]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.00.11:866][920]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.00.12:110][940]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.00.12:110][940]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.00.12:110][940]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.00.12:110][940]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.00.12:162][944]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.00.12:162][944]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.00.12:467][970]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.00.12:467][970]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.00.13:732][ 77]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.00.13:732][ 77]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.00.14:835][169]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.00.14:875][169]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.00.52:734][130]LogClass: Warning: In asset 'None', there is an enum property of type 'Enum_QTE_State' with an invalid value of ''
+[2018.06.06-16.00.52:734][130]LogClass: Warning: In asset 'None', there is an enum property of type 'Enum_QTE_State' with an invalid value of ''
+[2018.06.06-16.00.52:734][130]LogClass: Warning: In asset 'None', there is an enum property of type 'Enum_QTE_State' with an invalid value of ''
+[2018.06.06-16.00.52:734][130]LogClass: Warning: In asset 'None', there is an enum property of type 'Enum_QTE_State' with an invalid value of ''
+[2018.06.06-16.00.52:734][130]LogClass: Warning: In asset 'None', there is an enum property of type 'Enum_QTE_State' with an invalid value of ''
+[2018.06.06-16.01.03:148][632]BlueprintLog: New page: Compile OB_Crack
+[2018.06.06-16.01.09:675][  1]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-16.01.09:714][  1]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.01.09:714][  1]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-16.01.09:714][  1]PIE: New page: PIE session: Main_Blockout (Jun 6, 2018, 2:01:09 AM)
+[2018.06.06-16.01.09:715][  1]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout
+[2018.06.06-16.01.09:908][  1]LogPlayLevel: PIE: StaticDuplicateObject took: (0.193872s)
+[2018.06.06-16.01.09:909][  1]LogAIModule: Creating AISystem for world Main_Blockout
+[2018.06.06-16.01.09:909][  1]LogPlayLevel: PIE: World Init took: (0.000915s)
+[2018.06.06-16.01.09:910][  1]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout (0.195147s)
+[2018.06.06-16.01.09:930][  1]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.06-16.01.09:938][  1]LogInit: FAudioDevice initialized.
+[2018.06.06-16.01.09:969][  1]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.06-16.01.09:996][  1]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout up for play (max tick rate 0) at 2018.06.06-09.01.09
+[2018.06.06-16.01.10:006][  1]LogWorld: Bringing up level for play took: 0.036393
+[2018.06.06-16.01.10:008][  1]LogBlueprintUserMessages: [DynamicTargetingComponent] Casting to owner as character has FAILED
+[2018.06.06-16.01.10:009][  1]LogActor: Error: SetOwner(): Failed to set 'ThirdPersonCharacter_167' owner of 'ThirdPersonCharacter_167' because it would cause an Owner loop
+[2018.06.06-16.01.10:009][  1]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/QTEPack/Blueprints/QTE_Component.QTE_Component_C:Spawn_Widget'!
+[2018.06.06-16.01.10:012][  1]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout 0.727
+[2018.06.06-16.01.10:012][  1]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.01.10:020][  1]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.01.10:020][  1]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.01.10:564][ 40]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.01.10:564][ 40]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.01.10:608][ 44]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_16
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.01.10:608][ 44]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.01.10:619][ 45]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.01.10:619][ 45]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.01.10:641][ 47]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.01.10:641][ 47]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.01.17:199][628]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.01.17:199][628]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.01.17:783][679]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.01.17:783][679]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.01.17:783][679]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.01.17:783][679]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.01.18:695][756]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.01.18:696][756]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.01.20:416][903]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.01.20:457][903]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.02.29:090][138]BlueprintLog: New page: Compile OB_Crack
+[2018.06.06-16.03.17:847][654]BlueprintLog: New page: Compile OB_Crack
+[2018.06.06-16.03.52:021][519]BlueprintLog: New page: Compile BP_DoorActor
+[2018.06.06-16.03.54:970][650]LogTemp: Repeating last play command: Selected Viewport
+[2018.06.06-16.03.55:007][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.03.55:007][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2018.06.06-16.03.55:007][650]PIE: New page: PIE session: Main_Blockout (Jun 6, 2018, 2:03:55 AM)
+[2018.06.06-16.03.55:007][650]LogPlayLevel: Creating play world package: /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout
+[2018.06.06-16.03.55:217][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.209229s)
+[2018.06.06-16.03.55:217][650]LogAIModule: Creating AISystem for world Main_Blockout
+[2018.06.06-16.03.55:218][650]LogPlayLevel: PIE: World Init took: (0.000868s)
+[2018.06.06-16.03.55:218][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout to /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout (0.210471s)
+[2018.06.06-16.03.55:240][650]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2018.06.06-16.03.55:247][650]LogInit: FAudioDevice initialized.
+[2018.06.06-16.03.55:279][650]LogLoad: Game class is 'ThirdPersonGameMode_C'
+[2018.06.06-16.03.55:304][650]LogWorld: Bringing World /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout up for play (max tick rate 0) at 2018.06.06-09.03.55
+[2018.06.06-16.03.55:315][650]LogWorld: Bringing up level for play took: 0.035607
+[2018.06.06-16.03.55:316][650]LogBlueprintUserMessages: [DynamicTargetingComponent] Casting to owner as character has FAILED
+[2018.06.06-16.03.55:317][650]LogActor: Error: SetOwner(): Failed to set 'ThirdPersonCharacter_167' owner of 'ThirdPersonCharacter_167' because it would cause an Owner loop
+[2018.06.06-16.03.55:318][650]LogScriptCore: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/QTEPack/Blueprints/QTE_Component.QTE_Component_C:Spawn_Widget'!
+[2018.06.06-16.03.55:320][650]PIE: Play in editor start time for /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout 0.021
+[2018.06.06-16.03.55:320][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.03.55:328][650]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.03.55:328][650]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.03.55:344][651]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.053029 > MaxSimulationTimeStep (0.050) for 'ThirdPersonCharacter_167', movement 'Walking'
+[2018.06.06-16.03.55:885][689]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.03.55:885][689]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.03.55:929][693]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_16
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.03.55:929][693]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.03.55:940][694]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_15
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.03.55:940][694]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.03.55:962][696]LogScript: Warning: Accessed None trying to read property AIChar
+	AI_Brain_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.AI_Brain_C_17
+	Function /Game/ThirdPersonBP/Blueprints/AI_Brain.AI_Brain_C:ExecuteUbergraph_AI_Brain:0B25
+[2018.06.06-16.03.55:963][696]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.00:942][137]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.01:253][164]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.02:073][235]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:00C6
+[2018.06.06-16.04.02:074][235]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.02:074][235]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0107
+[2018.06.06-16.04.02:074][235]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.02:074][235]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:011C
+[2018.06.06-16.04.02:074][235]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.02:074][235]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0148
+[2018.06.06-16.04.02:074][235]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.02:074][235]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:015D
+[2018.06.06-16.04.02:074][235]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.02:966][312]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.04.02:979][313]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:00C6
+[2018.06.06-16.04.02:979][313]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.02:979][313]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0107
+[2018.06.06-16.04.02:979][313]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.02:980][313]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:011C
+[2018.06.06-16.04.02:980][313]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.02:980][313]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0148
+[2018.06.06-16.04.02:980][313]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.02:980][313]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:015D
+[2018.06.06-16.04.02:980][313]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.03:779][379]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.04.03:893][388]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:00C6
+[2018.06.06-16.04.03:894][388]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.03:894][388]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0107
+[2018.06.06-16.04.03:894][388]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.03:894][388]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:011C
+[2018.06.06-16.04.03:894][388]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.03:894][388]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0148
+[2018.06.06-16.04.03:894][388]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.03:894][388]LogScript: Warning: Accessed None
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:015D
+[2018.06.06-16.04.03:894][388]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.04:415][429]LogCharacterMovement: Enemy_test3_173 is stuck and failed to move! Velocity: X=-80.86 Y=-29.41 Z=0.00 Location: X=8409.43 Y=1125.20 Z=1625.15 Normal: X=-0.61 Y=0.67 Z=0.42 PenetrationDepth:2.004 Actor:Projectile2_C_10 Component:Sphere1 BoneName:None (0 other events since notify)
+[2018.06.06-16.04.04:432][430]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.04:575][441]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.04:652][447]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.04.04:653][447]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:00C6
+[2018.06.06-16.04.04:653][447]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.04:654][447]LogScript: Warning: Accessed None trying to read property CharacterReference
+	DynamicTargetingComponent_C /Game/ThirdPersonBP/Maps/UEDPIE_0_Main_Blockout.Main_Blockout:PersistentLevel.ThirdPersonCharacter_167.DynamicTargetingComponent
+	Function /Game/DynamicTargeting/DynamicTargetingFiles/DynamicTargetingComponent.DynamicTargetingComponent_C:SetRotationMode:0107
+[2018.06.06-16.04.04:654][447]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.04:654][447]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.04:654][447]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.04:654][447]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.06:096][563]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.04.06:159][568]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerRotationYaw in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.06:159][568]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.06:159][568]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bUseControllerDesiredRotation in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.06:159][568]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property CharacterReference from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None trying to read property CharacterReference
+[2018.06.06-16.04.06:159][568]PIE: Error: Blueprint Runtime Error: Accessed None from function: 'SetRotationMode' from node: Set bOrientRotationToMovement in graph: SetRotationMode in object: DynamicTargetingComponent with description: Accessed None
+[2018.06.06-16.04.06:564][602]LogPawn: Error: DisableInput can only be specified on a Pawn for its Controller
+[2018.06.06-16.04.09:649][857]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.09:673][859]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.09:732][864]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.09:743][865]LogScriptCore: Warning: Script Msg: Attempted to access index 1 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.04.09:743][865]LogScriptCore: Warning: Script Msg: Attempted to access index 1 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.04.11:186][991]LogScriptCore: Warning: Script Msg: Attempted to access index 1 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.04.11:186][991]LogScriptCore: Warning: Script Msg: Attempted to access index 1 from array 'Loop_Anims_11_498AA94C4546F8F6A702A79A2BFB9218' of length 0 in '/Game/QTEPack/Structs/Anim_Struct.Anim_Struct'!
+[2018.06.06-16.04.13:980][231]PIE: Error: Blueprint Runtime Error: Accessed None trying to read property AIChar from function: 'ExecuteUbergraph_AI_Brain' from node: Branch in graph: EventGraph in object: AI_Brain with description: Accessed None trying to read property AIChar
+[2018.06.06-16.04.16:159][424]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.04.16:202][424]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel' has LevelScriptBlueprint '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout' with GeneratedClass '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout_C' with ClassGeneratedBy '/Game/ThirdPersonBP/Maps/Main_Blockout.Main_Blockout:PersistentLevel.Main_Blockout'
+[2018.06.06-16.04.45:055][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/QTEPack/Blueprints/BP_DoorActor" FILE="F:/Game Prototyping/Week_9/Pipa/Content/QTEPack/Blueprints/BP_DoorActor.uasset" SILENT=true
+[2018.06.06-16.04.45:352][108]LogSavePackage: Save=232.73ms
+[2018.06.06-16.04.45:352][108]LogSavePackage: Moving 'F:/Game Prototyping/Week_9/Pipa/Saved/BP_DoorActorADFE57F043A29D67652267925AF57D03.tmp' to 'F:/Game Prototyping/Week_9/Pipa/Content/QTEPack/Blueprints/BP_DoorActor.uasset'
+[2018.06.06-16.04.45:375][108]LogSavePackage: Display: Finished SavePackage F:/Game Prototyping/Week_9/Pipa/Content/QTEPack/Blueprints/BP_DoorActor.uasset
+[2018.06.06-16.04.45:410][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Blueprints/OB_Crack" FILE="F:/Game Prototyping/Week_9/Pipa/Content/ThirdPersonBP/Blueprints/OB_Crack.uasset" SILENT=true
+[2018.06.06-16.04.46:135][108]LogSavePackage: Save=651.35ms
+[2018.06.06-16.04.46:135][108]LogSavePackage: Moving 'F:/Game Prototyping/Week_9/Pipa/Saved/OB_Crack6E21345747E5020DD645E4A03AFACED1.tmp' to 'F:/Game Prototyping/Week_9/Pipa/Content/ThirdPersonBP/Blueprints/OB_Crack.uasset'
+[2018.06.06-16.04.46:162][108]LogSavePackage: Display: Finished SavePackage F:/Game Prototyping/Week_9/Pipa/Content/ThirdPersonBP/Blueprints/OB_Crack.uasset
+[2018.06.06-16.04.46:302][108]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/ThirdPersonBP/Maps/Main_Blockout" FILE="F:/Game Prototyping/Week_9/Pipa/Content/ThirdPersonBP/Maps/Main_Blockout.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2018.06.06-16.05.00:705][108]LogSavePackage: Save=13852.16ms
+[2018.06.06-16.05.00:705][108]LogSavePackage: Moving 'F:/Game Prototyping/Week_9/Pipa/Saved/Main_Blockout45AD8D34410FD6E3D2BB278DE4D7367D.tmp' to 'F:/Game Prototyping/Week_9/Pipa/Content/ThirdPersonBP/Maps/Main_Blockout.umap'
+[2018.06.06-16.05.00:733][108]LogSavePackage: Display: Finished SavePackage F:/Game Prototyping/Week_9/Pipa/Content/ThirdPersonBP/Maps/Main_Blockout.umap
+[2018.06.06-16.05.00:789][108]LogFileHelpers: Saving map 'Main_Blockout' took 14.616
